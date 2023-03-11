@@ -1,0 +1,59 @@
+ * {
+     margin: 0;
+ }
+
+ #space {
+     height: 100px;
+ }
+
+ #question {
+     text-align: left;
+     font-size: xx-large;
+ }
+
+ #mcqs {
+     text-align: left;
+     margin: 40px;
+     user-select: none;
+     color: #000;
+ }
+
+ #main-content span,
+ p,
+ div {
+     color: yellow;
+ }
+
+ .options {
+     border: solid yellow 1px;
+     margin: 20px 0px;
+     padding: 20px;
+     font-size: x-large;
+ }
+
+ .options:hover {
+     transition: all 0.4s ease-in-out;
+     background: rgba(255, 255, 0, 0.584);
+     color: black;
+ }
+
+ #main-content {
+     padding: 50px 100px;
+ }
+
+ button {
+     width: 100px;
+     margin: 0px 30px 0px 0px;
+     height: 40px;
+     font-size: x-large;
+     background-color: yellow;
+     border: solid black 0px;
+     color: black;
+     box-shadow: 0px 0px 0px 0px;
+     border-radius: 10px;
+ }
+
+ button:hover {
+     transition: all 0.3s ease-in-out;
+     box-shadow: 0px 1px 10px 0px rgb(0, 255, 255);
+ }
